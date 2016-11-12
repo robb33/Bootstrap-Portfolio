@@ -1,0 +1,81 @@
+/* .. Overwrite CSS style for general .. */
+
+/*general*/
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+/*main*/
+
+#main-container {
+	padding-top: 130px;
+}
+.main-section {
+
+	background: url("../images/greyww.png");
+	padding: 30px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	max-width: 650px;
+	float: left;
+	border: 1px solid #ddd;
+}
+
+/*sidebar*/
+
+.sidebar {
+	background: #fff;
+	padding: 30px;
+	width: 100%;
+	max-width: 270px;
+	float: right;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+/*Overwrite CSS style for bootstap*/
+
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.img-responsive {
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
+
+.img-thumbnail {
+	width: 62px;
+	height: 62px;
+	margin-top: 8px;
+	margin-right: 5px;
+
+
+}
+
+/*Overwrite CSS style for media*/
+
+
+@media (max-width: @screen-xs) {
+    body{font-size: 18px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 20px;}
+}
+
+
+
+
+
+
+
+
