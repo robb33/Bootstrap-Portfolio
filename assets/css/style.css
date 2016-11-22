@@ -18,6 +18,7 @@ body {
 
 .sidebar {
 	background: url("../images/greyww.png");
+	border-radius: 6px;
 	padding: 30px;
 	width: 100%;
 	max-width: 270px;
@@ -49,6 +50,7 @@ h3,
 }
 .main-section {
 	background: url("../images/greyww.png");
+	border-radius: 6px;
 	padding: 30px;
 	margin: 0 0 40px 0;
 	width: 100%;
