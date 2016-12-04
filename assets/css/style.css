@@ -107,3 +107,47 @@ h3,
 	float: left;
 	margin-right: 25px;
 }
+
+
+@media screen and (max-width: 980px) {
+
+.work {
+	width: auto;
+}
+
+.work:nth-child(even) {
+	margin: auto;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+.work {
+	width: auto;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+.work {
+	width: auto;
+}	
+
+}
+
+
+
+
+
+
+
+
